@@ -1,0 +1,11 @@
+<div>
+  #if($date)
+    <div class="aui-badge watch-state-on simple-tooltip" >$date</div>
+  #end
+  #if($user)
+    <div class="aui-badge watch-state-on simple-tooltip" >$user</div>
+  #end
+  #if($value!="")
+    $value
+  #end
+</div>
